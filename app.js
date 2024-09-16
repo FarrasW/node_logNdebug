@@ -22,6 +22,7 @@ let cust_details = [["John","Kate","Ross","Joseph","Maria","Christina","Jim","Da
 ["Miami","Houston","Los Angeles","North Dakota","Chicago","Dallas","Denver","Atlanta","San Francisco","New York"]]
 
 readline.question(`\nThere are 10 records. Enter the record number you would like to see\n`, number => {
+    debugger;
     if(isNaN(number)) {
         logger.error("Input not a number")
         logger.warn("Only numbers can be entered.")
