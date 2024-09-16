@@ -1,0 +1,19 @@
+{
+  "name": "logapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node_logNdebug"
+  },
+  "author": "Farras",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "winston": "^3.14.2"
+  }
+}
